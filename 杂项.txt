@@ -1,13 +1,13 @@
-1.ÓÃexcelĞ´¹«Ê½µ¼Èëµ½Êı¾İ¿â
+1.ç”¨excelå†™å…¬å¼å¯¼å…¥åˆ°æ•°æ®åº“
 =CONCATENATE("insert   into   blog   (template_subject,email_sn,to_url ,from_url,title,email,cat_id)   values   ('",A1,"','",B1,"','",C1,"','",D1,"','",E1,"','",F1,"' ,0);")
 
-2.mysqlÖĞ´úÌæÕıÔòÌæ»»¼òµ¥µÄhtml±êÇ©
+2.mysqlä¸­ä»£æ›¿æ­£åˆ™æ›¿æ¢ç®€å•çš„htmlæ ‡ç­¾
 UPDATE ecs_article SET art_desc = REPLACE(art_desc, SUBSTRING(art_desc, LOCATE('<span>', art_desc),LOCATE('</span>', art_desc)-LOCATE('<span>', art_desc) + 7),'');  
-ecshopĞŞ¸Ä¼Û¸ñÎª.99µÄºó×º UPDATE ecs_goods SET shop_price = REPLACE(shop_price, SUBSTR(shop_price, LOCATE('.', shop_price)),'.99');
+ecshopä¿®æ”¹ä»·æ ¼ä¸º.99çš„åç¼€ UPDATE ecs_goods SET shop_price = REPLACE(shop_price, SUBSTR(shop_price, LOCATE('.', shop_price)),'.99');
 
-3.javascript ×óÓÒ  »òÕßÉÏÏÂ·­¹öĞ§¹û
+3.javascript å·¦å³  æˆ–è€…ä¸Šä¸‹ç¿»æ»šæ•ˆæœ
 move_rule_item(ele , opposite_ID, ID , all_parm_ID, count , x , y);
-eleµã»÷·­¹ö°´Å¥¶ÔÏó£¬opposite_IDºÍµã»÷°´Å¥Ïà·´µÄÔªËØid , ID Êµ¼ÊÏÔÊ¾µÄÈİÆ÷id , all_parm_ID×Ü¹²µÄÔªËØ×ÜºÍÈİÆ÷idm £¬ count ÏÔÊ¾ÈİÆ÷µÄÔªËØ×Ü¸öÊı£¬x¿ØÖÆÏÔÊ¾ºáÏò¹ö¶¯£¬y¿ØÖÆ×İÏò¹ö¶¯   //ÊµÀıÍøÕ¾buydvd.jp   dvdsale.jp
+eleç‚¹å‡»ç¿»æ»šæŒ‰é’®å¯¹è±¡ï¼Œopposite_IDå’Œç‚¹å‡»æŒ‰é’®ç›¸åçš„å…ƒç´ id , ID å®é™…æ˜¾ç¤ºçš„å®¹å™¨id , all_parm_IDæ€»å…±çš„å…ƒç´ æ€»å’Œå®¹å™¨idm ï¼Œ count æ˜¾ç¤ºå®¹å™¨çš„å…ƒç´ æ€»ä¸ªæ•°ï¼Œxæ§åˆ¶æ˜¾ç¤ºæ¨ªå‘æ»šåŠ¨ï¼Œyæ§åˆ¶çºµå‘æ»šåŠ¨   //å®ä¾‹ç½‘ç«™buydvd.jp   dvdsale.jp
 	var display_panel = document.getElementById(ID);	
 	var click_opposite_panel = document.getElementById(opposite_ID);
 	var all_parm_panel = document.getElementById(all_parm_ID);
@@ -57,7 +57,7 @@ eleµã»÷·­¹ö°´Å¥¶ÔÏó£¬opposite_IDºÍµã»÷°´Å¥Ïà·´µÄÔªËØid , ID Êµ¼ÊÏÔÊ¾µÄÈİÆ÷id , a
 	}
 }
 
-4.php³ÌĞòÀï±ßÀàËÆÓÚhtml´úÂëµÄÊä³ö
+4.phpç¨‹åºé‡Œè¾¹ç±»ä¼¼äºhtmlä»£ç çš„è¾“å‡º
 $license = 'fasdfasdfasdf';
 echo <<<EOT
 	<div class="licenseblock">$license</div>
@@ -67,13 +67,13 @@ echo <<<EOT
 	</div>
 EOT;
 
-5.²é¿´httpÇëÇó¹¤¾ßwireshark
+5.æŸ¥çœ‹httpè¯·æ±‚å·¥å…·wireshark
 
-6.PHP  ½Ó¿Ú  Composer-Setup.exe
+6.PHP  æ¥å£  Composer-Setup.exe
 
-7. hosts  ÎÄ¼şÏÂÔØÂ·¾¶   https://www.projecth.us/sources
+7. hosts  æ–‡ä»¶ä¸‹è½½è·¯å¾„   https://www.projecth.us/sources
 
-8.vps¹ºÂòÂ·¾¶oneasiahost.com
+8.vpsè´­ä¹°è·¯å¾„oneasiahost.com
 
 Hostname: vpn.pengjiasong.com
 Main IP: 116.251.210.225
@@ -84,11 +84,11 @@ Username: root
 Password: e52217a59e
 
 
-9.jquery ÎŞË¢ĞÂÉÏ´«Í¼Æ¬²å¼şjquery.uploadify.js
+9.jquery æ— åˆ·æ–°ä¸Šä¼ å›¾ç‰‡æ’ä»¶jquery.uploadify.js
 
-10.jqueryÈÕÀú¿Ø¼ş   validationEngine.jquery
+10.jqueryæ—¥å†æ§ä»¶   validationEngine.jquery
 
-11.php ¸ù¾İIPÅĞ¶Ï¹ú¼Ògeoip     geoip_country_code_by_addr($gi, $users_ip) != "JP"
+11.php æ ¹æ®IPåˆ¤æ–­å›½å®¶geoip     geoip_country_code_by_addr($gi, $users_ip) != "JP"
 
 12.				$attr_base_order = array('size-S'=>array() , 'size-M'=>array(), 'size-L'=>array() , 'size-XL' =>array() , 'size-XXL'=>array() , 'size-XXXL' => array() , 'size-One Size'=> array());
 				if(!empty($attr_arr['size'])){
@@ -106,28 +106,28 @@ Password: e52217a59e
 					}
 					$attr_arr['size'] = $attr_value_array;
 				}
-13.Í¬²½»­Í¼   http://whiteboardfox.com
+13.åŒæ­¥ç”»å›¾   http://whiteboardfox.com
 
-14.Ô¶³ÌÁ¬½Ólinux  putty.exe
+14.è¿œç¨‹è¿æ¥linux  putty.exe
 
-15.hostÎÄ¼şµØÖ·£ºhttps://smarthosts.googlecode.com/svn/trunk/hosts
+15.hostæ–‡ä»¶åœ°å€ï¼šhttps://smarthosts.googlecode.com/svn/trunk/hosts
 
-16.Ô­ĞÍ»æÖÆ¹¤¾ßAxure
+16.åŸå‹ç»˜åˆ¶å·¥å…·Axure
 
-17.chrome¿ª·¢Õß¹¤¾ßchrome://flags/#enable-devtools-experiments
+17.chromeå¼€å‘è€…å·¥å…·chrome://flags/#enable-devtools-experiments
 
 18.vs.php http://www.vsphp.com/
 
-19.mysqlÁªºÏ¸úĞÂ udpate a,b set a.text = b.text where a.id = b.id
+19.mysqlè”åˆè·Ÿæ–° udpate a,b set a.text = b.text where a.id = b.id
 
-20.excelµ¥Ôª¸ñÓĞ×Ö·ûÏŞÖÆ£¬ÇÒ¿ÉÒÔÉèÖÃµ¥Ôª¸ñ×î´óÊäÈë×Ö·ûÊı
+20.excelå•å…ƒæ ¼æœ‰å­—ç¬¦é™åˆ¶ï¼Œä¸”å¯ä»¥è®¾ç½®å•å…ƒæ ¼æœ€å¤§è¾“å…¥å­—ç¬¦æ•°
 
-21.ajax´«µİtextarea»»ĞĞ·ûÎÊÌâ
+21.ajaxä¼ é€’textareaæ¢è¡Œç¬¦é—®é¢˜
 									var postdata = $('#sub-data').val();									
 									var newData = postdata.replace(/\n/g,"///");
 									var dataobj = {'data':newData , 'dbname':dbname};
 
-22.ÎÄ¼şÏÂÔØº¯Êı
+22.æ–‡ä»¶ä¸‹è½½å‡½æ•°
 function get_file($url, $filename = ''){
 	if(empty($filename)){
 		$file_parm = explode('/' , $url);
@@ -151,3 +151,6 @@ function get_file($url, $filename = ''){
 	}
 	return $filename;
 }
+
+23.mysqlæ ¹æ®æŒ‡å®šå­—ç¬¦åˆ é™¤å·¦å³ç©ºæ ¼ï¼Œæˆ–è€…å…¶ä»–å­—ç¬¦
+update be_yaopinzhongbiao set me_baozhuanguige2 = TRIM(BOTH '	' FROM me_baozhuanguige2)
