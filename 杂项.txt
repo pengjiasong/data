@@ -154,3 +154,9 @@ function get_file($url, $filename = ''){
 
 23.mysql根据指定字符删除左右空格，或者其他字符
 update be_yaopinzhongbiao set me_baozhuanguige2 = TRIM(BOTH '	' FROM me_baozhuanguige2)
+
+24.php进阶知识点（https://www.zhihu.com/question/19697796）
+1.设计模式学习
+2.PHP最新手册学习
+3.学习MongoDB的工作机制
+4.学习redis的源码
