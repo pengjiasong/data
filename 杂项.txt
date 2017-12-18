@@ -160,3 +160,5 @@ update be_yaopinzhongbiao set me_baozhuanguige2 = TRIM(BOTH '	' FROM me_baozhuan
 2.PHP最新手册学习
 3.学习MongoDB的工作机制
 4.学习redis的源码
+
+25.脚本语言的话的确推荐Ruby python
