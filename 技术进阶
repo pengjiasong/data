@@ -7,6 +7,8 @@
 6、全文搜索解决方案，redis+elasticsearch（使用点，内容全文搜索、搜索提示等）
 7、内容推荐引擎，这个还是交给研究院的协助完成吧（包含内容匹配、推荐、猜你喜欢等功能）
 
+具有一定的高可用架构能力(Linux、HTTP/TCP/IP、数据分片(或分布式数据库)、Data Cache、CDN、MQ、Docker等...不要求全部)，常用软件安装部署与上线监控，熟悉Ansible和k8s优先
+
 Mysql:
 1.Mysql基于FEDERATED存储引擎的远程表使用
 http://blog.csdn.net/jenminzhang/article/details/50837603
