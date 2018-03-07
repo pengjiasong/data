@@ -164,3 +164,7 @@ update be_yaopinzhongbiao set me_baozhuanguige2 = TRIM(BOTH '	' FROM me_baozhuan
 25.脚本语言的话的确推荐Ruby python
 
 26.TeamViewer是一个能在任何防火墙和NAT代理的后台用于远程控制的应用程序
+
+27.xmind思维导图
+
+28.任务管理系统tower/tapd
