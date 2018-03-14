@@ -1,2 +1,6 @@
 一.高效mysql
 like查询优化全表扫描优化：http://blog.csdn.net/panjican/article/details/52523410
+
+
+二：运用技巧
+mysql 快速查看数据库中所有表的记录数(大概值，非准确值):http://blog.csdn.net/a19860903/article/details/52311765
