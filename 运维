@@ -23,3 +23,6 @@ mysql> flush privileges;
 Query OK, 0 rows affected (0.00 sec)
 5、退出mysql并对mysql进行重启即可！！
 service mysqld restart    cenos7:systemctl start mysqld 
+
+mysql查看编码格式：show variables like "%char%";
+delete from mysql.user where user=''; //删除匿名用户
