@@ -7,7 +7,7 @@ https://cloud.tencent.com/document/product/362/6735
 
 
 服务器操作系统为 Ubuntu Server 16.04.1 LTS 64位 ，默认账户为 ubuntu ，初始密码为 iGUdPuRmaHziMV3j
-服务器操作系统为 centos7.4 Server LTS 64位 ，默认账户为 root ，初始密码为 pjs123456789
+服务器操作系统为 centos7.4 Server LTS 64位 ，默认账户为 root ，初始密码为 pjs152232
 
 服务器名称	云主机ID	所在网络ID	内网IP	公网IP
 未命名	ins-0wwi7odn	vpc-mcgc6tvg	172.27.0.11	119.27.171.12
