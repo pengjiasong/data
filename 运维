@@ -1,2 +1,25 @@
 CentOS 6.5 Apache搭建虚拟主机:
 https://www.linuxidc.com/Linux/2014-05/101162.htm
+
+mysql修改密码和允许远程登录
+1、用帐号登录mysql
+mysql –u root
+或#mysql –uroot –p
+2、改变用户数据库
+命令：mysql>use mysql
+mysql> use mysql
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+Database changed
+3、修改密码
+密码要用password()函数进行加密！！！！
+命令：mysql> update user set password=password('root') where user='root';
+mysql> update user set password=password('root') where user='root';
+Query OK, 3 rows affected (0.00 sec)
+Rows matched: 3  Changed: 3  Warnings: 0
+4、刷新权限表
+命令：mysql> flush privileges;
+mysql> flush privileges;
+Query OK, 0 rows affected (0.00 sec)
+5、退出mysql并对mysql进行重启即可！！
+service mysqld restart    cenos7:systemctl start mysqld 
