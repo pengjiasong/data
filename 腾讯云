@@ -15,6 +15,7 @@ https://cloud.tencent.com/document/product/362/6735
 mysql  root pjspassword
 
 雪雪IP：183.67.56.53
+curl_setopt($ch, CURLOPT_HTTPHEADER, array('X-FORWARDED-FOR:183.67.56.53', 'CLIENT-IP:183.67.56.53')); //构造IP 
 
 
 温馨提醒：
