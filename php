@@ -20,8 +20,6 @@ function foo(&$v, $k, $kname) {
   $v = array_combine($kname, array_slice($v, 1, -1));
 }
 array_walk($ar, 'foo', $kname);
-print_r($ar);
-exit;
 
 thinkphp5:
 1.数据库操作方法小结:https://blog.csdn.net/lovehmm/article/details/53892857
