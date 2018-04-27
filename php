@@ -21,5 +21,9 @@ function foo(&$v, $k, $kname) {
 }
 array_walk($ar, 'foo', $kname);
 
+5.strpos升级版查找字符串中是否包含给定的字符
+$tempfield = "date_histogram(field='insert_time','interval'='1d','alias'='yourAlias')";
+echo strpbrk($tempfield,'(),\'\"=, ');  //返回的不是位置，而是类似strstr第一次出现包含的位置
+
 thinkphp5:
 1.数据库操作方法小结:https://blog.csdn.net/lovehmm/article/details/53892857
