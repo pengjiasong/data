@@ -168,3 +168,5 @@ update be_yaopinzhongbiao set me_baozhuanguige2 = TRIM(BOTH '	' FROM me_baozhuan
 27.xmind思维导图
 
 28.任务管理系统tower/tapd
+
+29.老司机的神兵利器-效率工具：https://juejin.im/post/5af0021e518825671547926e?utm_source=gold_browser_extension
