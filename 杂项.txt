@@ -170,3 +170,5 @@ update be_yaopinzhongbiao set me_baozhuanguige2 = TRIM(BOTH '	' FROM me_baozhuan
 28.任务管理系统tower/tapd
 
 29.老司机的神兵利器-效率工具：https://juejin.im/post/5af0021e518825671547926e?utm_source=gold_browser_extension
+
+30.PHP, Python, Node.js 哪个比较适合写爬虫？ https://www.zhihu.com/question/23643061
