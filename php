@@ -29,3 +29,5 @@ thinkphp5:
 1.数据库操作方法小结:https://blog.csdn.net/lovehmm/article/details/53892857
 
 46 个非常有用的 PHP 代码片段:https://www.oschina.net/question/2012764_246023
+
+6. PHP7内核剖析 https://blog.csdn.net/fanghua_vip/article/details/79535540
