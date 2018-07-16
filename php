@@ -31,3 +31,5 @@ thinkphp5:
 46 个非常有用的 PHP 代码片段:https://www.oschina.net/question/2012764_246023
 
 6. PHP7内核剖析 https://blog.csdn.net/fanghua_vip/article/details/79535540
+
+7.PHP性能优化利器：生成器 yield理解  https://www.cnblogs.com/zuochuang/p/8176868.html
