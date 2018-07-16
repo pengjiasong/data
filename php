@@ -35,3 +35,5 @@ thinkphp5:
 7.PHP性能优化利器：生成器 yield理解  https://www.cnblogs.com/zuochuang/p/8176868.html
 
 8.php结合redis实现高并发下的抢购、秒杀功能:http://www.cnblogs.com/zuochuang/p/7262361.html
+
+9.上传进度支持:http://www.laruence.com/2011/10/10/2217.html
