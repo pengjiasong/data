@@ -37,3 +37,5 @@ thinkphp5:
 8.php结合redis实现高并发下的抢购、秒杀功能:http://www.cnblogs.com/zuochuang/p/7262361.html
 
 9.上传进度支持:http://www.laruence.com/2011/10/10/2217.html
+
+10.关于PHP写APP接口的安全问题探讨:http://www.php.cn/php-weizijiaocheng-331570.html
