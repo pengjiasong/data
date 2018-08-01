@@ -39,3 +39,5 @@ thinkphp5:
 9.上传进度支持:http://www.laruence.com/2011/10/10/2217.html
 
 10.关于PHP写APP接口的安全问题探讨:http://www.php.cn/php-weizijiaocheng-331570.html
+
+11.PHP开发api接口安全验证 https://blog.csdn.net/li741350149/article/details/62887524
