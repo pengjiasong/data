@@ -41,3 +41,5 @@ thinkphp5:
 10.关于PHP写APP接口的安全问题探讨:http://www.php.cn/php-weizijiaocheng-331570.html
 
 11.PHP开发api接口安全验证 https://blog.csdn.net/li741350149/article/details/62887524
+
+12.微信小程序“反编译”实战 http://mobile.51cto.com/hot-573162.htm
