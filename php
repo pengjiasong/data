@@ -43,3 +43,5 @@ thinkphp5:
 11.PHP开发api接口安全验证 https://blog.csdn.net/li741350149/article/details/62887524
 
 12.微信小程序“反编译”实战 http://mobile.51cto.com/hot-573162.htm
+
+13.PHP实现微信模拟登陆并给用户发送消息的方法:https://www.jb51.net/article/117409.htm
