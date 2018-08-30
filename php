@@ -44,3 +44,5 @@ thinkphp5:
 
 12.微信小程序“反编译”实战 http://mobile.51cto.com/hot-573162.htm
 
+13.采集伪造程序:https://blog.csdn.net/trh0123/article/details/73200808
+
